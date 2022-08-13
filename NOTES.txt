@@ -1,0 +1,53 @@
+SUPER GLOBAL VARIABLES
+----------------------
+1. $_GET- takes only 1mb of data.
+
+2. $_POST- takes only 2mb of data from the form page but this storage capacity can be changed.
+
+3. $_REQUEST
+4. $_SESSION
+5. $_COOKIES
+6. $_FILES
+7. $_SERVER
+8. $_ENV
+
+
+
+Types of tags available in php
+--------------------------------
+
+1. Universal- used by all the developers
+	<?php
+
+	?>
+
+2. Short open tag
+	<?
+
+	?>
+by default mode is OFF  
+
+3. ASP Style Type Tag
+	<%
+
+	%>
+
+by default the mode of this tag is OFF
+
+4. Script Style Tag
+	<script lang="PHP">
+
+	</script>
+by default it is on.
+
+
+Errors in PHP
+--------------------------
+
+1.Parse Error- Occurs when error in syntax and does not let the further code run.
+
+2.Warning Error- Occurs when you add a wrong file using INCLUDE() function but let's the further code run
+
+3.Fatal Error- Occurs when a unidentified fle is being add using REQUIRE() function but does not let the further code run.
+
+4.Notice Error- Similar to Warning Error, Occurs due to an error but let's the further code run e.g. assumed as 'add'. 
